@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блочная вёрстка | Теория музыки. Главная</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f0f0f0;
+            font-family: Fairfax;;
+            padding: 20px;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border: 2px solid #333;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 35px 15px;
+            border-bottom: 1px solid #999;
+        }
+
+        .nav {
+            background: #34495e;
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid #999;
+        }
+        .nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+            color: #f1c40f;
+        }
+        .row {
+            display: flex;
+            min-height: 400px;
+        }
+        .content {
+            flex: 1;
+            background: #ffffff;
+            padding: 20px;
+            border-right: 1px solid #999;
+        }
+        .content h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .content h3 {
+            margin: 20px 0 10px;
+            color: #2c3e50;
+        }
+        /* Сайдбар (правая колонка) */
+        .sidebar {
+            width: 250px;
+            background: #ecf0f1;
+            padding: 20px;
+        }
+        .sidebar h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        .sidebar p {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            border-top: 1px solid #999;
+        }
+        .note-example {
+            font-size: 24px;
+            letter-spacing: 5px;
+            color: #e67e22;
+            background: #fdf2e9;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        ul {
+            padding-left: 25px;
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .fact-block {
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        Теория музыки для начинающих
+    </header>
+
+    <nav class="nav">
+        <a href="index.html">Главная</a> |
+        <a href="intervals.html">Интервалы</a> |
+        <a href="scales.html">Гаммы</a> |
+        <a href="chords.html">Аккорды</a> |
+        <a href="inversions.html">Обращения</a>
+    </nav>
+
+    <div class="row">
+        <main class="content">
+            <h2>Основы музыки: Ноты и звук</h2>
+            <p>Музыка состоит из <strong>звуков</strong>. В европейской традиции используется 12 звуков в пределах октавы. Основные ступени (7 нот) имеют названия:</p>
+
+            <div class="note-example">
+                ДО - РЕ - МИ - ФА - СОЛЬ - ЛЯ - СИ
+            </div>
+
+            <h3>Октавы</h3>
+            <p>Октава — это интервал между двумя ближайшими одноименными звуками (например, от "До" до следующего "До"). На фортепиано октавы делятся на:</p>
+            <ul>
+                <li>Субконтроктава (самые низкие)</li>
+                <li>Контроктава</li>
+                <li>Большая октава</li>
+                <li>Малая октава</li>
+                <li>1-я, 2-я, 3-я, 4-я, 5-я октавы</li>
+            </ul>
+
+            <h3>Ключи</h3>
+            <p>Самые распространенные ключи: <b>Скрипичный (Соль)</b> и <b>Басовый (Фа)</b>. Они указывают, где на нотном стане находится определенная нота.</p>
+            <div class="fact-block">
+                <i>Интересный факт:</i> Не все факты интересные
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Словарь</h3>
+            <p><b>Нота</b> — графическое обозначение звука.</p>
+            <p><b>Звукоряд</b> — последовательность звуков.</p>
+            <p><b>Полутон</b> — наименьшее расстояние между звуками (ближайшие клавиши пианино).</p>
+            <p><b>Тон</b> = два полутона.</p>
+
+            <h3>Полезно</h3>
+            <p>Запомните порядок нот по квинтам: <b>Фа-До-Соль-Ре-Ля-Ми-Си</b>.</p>
+            <p style="font-size: 12px; color: gray;">(Это пригодится при изучении знаков альтерации. Правда)</p>
+
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+        ✡︎ Не запутайтесь. Это блочная вёрстка. Все права мои ✡︎
+    </footer>
+</div>
+</body>
+</html>
