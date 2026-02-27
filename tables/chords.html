@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Табличная вёрстка | Аккорды</title>
+  <style>
+    body { background: #f0f0f0; font-family: Fairfax; margin: 20px; }
+    .main-table { width: 1000px; margin: 0 auto; background: white; border-collapse: collapse; border: 2px solid #333; }
+    .main-table td, .main-table th { border: 1px solid #999; padding: 15px; vertical-align: top; }
+    .header-cell { background: #2c3e50; color: white; text-align: center; font-size: 28px; font-weight: bold; height: 100px; }
+    .nav-cell { background: #34495e; text-align: center; }
+    .nav-cell a { color: #ecf0f1; text-decoration: none; margin: 0 15px; font-size: 18px; }
+    .sidebar-cell { background: #ecf0f1; width: 250px; }
+    .content-cell { background: #ffffff; }
+    .footer-cell { background: #2c3e50; color: white; text-align: center; font-size: 14px; }
+    .chord-box { display: inline-block; background: #e67e22; color: white; padding: 5px 10px; border-radius: 5px; margin: 2px; }
+  </style>
+</head>
+<body>
+<table class="main-table">
+  <tr><td colspan="2" class="header-cell">Теория музыки для начинающих</td></tr>
+  <tr><td colspan="2" class="nav-cell">
+    <a href="index.html">Главная</a> |
+    <a href="intervals.html">Интервалы</a> |
+    <a href="scales.html">Гаммы</a> |
+    <a href="chords.html">Аккорды</a> |
+    <a href="inversions.html">Обращения</a>
+  </td></tr>
+  <tr>
+    <td class="content-cell">
+      <h2>Трезвучия</h2>
+      <p>Аккорд — созвучие из трех и более нот. Трезвучие состоит из двух терций.</p>
+      <h3>Виды трезвучий:</h3>
+      <ul>
+        <li><span class="chord-box">Б53</span> Большое (мажорное): б.3 + м.3 (До-Ми-Соль)</li>
+        <li><span class="chord-box">М53</span> Малое (минорное): м.3 + б.3 (До-Ми♭-Соль)</li>
+        <li><span class="chord-box">Ув53</span> Увеличенное: б.3 + б.3 (До-Ми-Соль#)</li>
+        <li><span class="chord-box">Ум53</span> Уменьшенное: м.3 + м.3 (До-Ми♭-Соль♭)</li>
+      </ul>
+      <p>Обозначения: C (До мажор), Cm (До минор), Caug (увеличенный), Cdim (уменьшенный).</p>
+    </td>
+    <td class="sidebar-cell">
+      <h3>Строение</h3>
+      <p>Мажор = 4 полутона + 3 полутона от основы.</p>
+      <p>Минор = 3 полутона + 4 полутона.</p>
+      <h3>На гитаре</h3>
+      <p>Аккорды строятся по аппликатурным сеткам. Мажор звучит светло, минор — грустно.</p>
+    </td>
+  </tr>
+  <tr><td colspan="2" class="footer-cell">✡︎ Не запутайтесь. Это табличная вёрстка. Все права мои ✡︎</td></tr>
+</table>
+</body>
+</html>
