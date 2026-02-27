@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Табличная вёрстка | Обращения аккордов</title>
+  <style>
+    body { background: #f0f0f0; font-family: Fairfax; margin: 20px; }
+    .main-table { width: 1000px; margin: 0 auto; background: white; border-collapse: collapse; border: 2px solid #333; }
+    .main-table td, .main-table th { border: 1px solid #999; padding: 15px; vertical-align: top; }
+    .header-cell { background: #2c3e50; color: white; text-align: center; font-size: 28px; font-weight: bold; height: 100px; }
+    .nav-cell { background: #34495e; text-align: center; }
+    .nav-cell a { color: #ecf0f1; text-decoration: none; margin: 0 15px; font-size: 18px; }
+    .sidebar-cell { background: #ecf0f1; width: 250px; }
+    .content-cell { background: #ffffff; }
+    .footer-cell { background: #2c3e50; color: white; text-align: center; font-size: 14px; }
+    .inv-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    .inv-table td { border: 1px solid #bdc3c7; padding: 8px; background: #f8f9fa; }
+  </style>
+</head>
+<body>
+<table class="main-table">
+  <tr><td colspan="2" class="header-cell">Теория музыки для начинающих</td></tr>
+  <tr><td colspan="2" class="nav-cell">
+    <a href="index.html">Главная</a> |
+    <a href="intervals.html">Интервалы</a> |
+    <a href="scales.html">Гаммы</a> |
+    <a href="chords.html">Аккорды</a> |
+    <a href="inversions.html">Обращения</a>
+  </td></tr>
+  <tr>
+    <td class="content-cell">
+      <h2>Обращения трезвучий</h2>
+      <p>Если перенести нижний звук аккорда на октаву вверх, получится обращение.</p>
+
+      <table class="inv-table">
+        <tr style="background: #34495e; color: white;"><td>Вид</td><td>Состав</td><td>Интервалы</td><td>Пример (До мажор)</td></tr>
+        <tr><td>Трезвучие (основной вид)</td><td>Прима - Терция - Квинта</td><td>5</td><td>До-Ми-Соль</td></tr>
+        <tr><td>Секстаккорд (1-е обращение)</td><td>Терция - Квинта - Прима (октавой выше)</td><td>6</td><td>Ми-Соль-До</td></tr>
+        <tr><td>Квартсекстаккорд (2-е обращение)</td><td>Квинта - Прима - Терция</td><td>4 и 6</td><td>Соль-До-Ми</td></tr>
+      </table>
+
+      <p style="margin-top: 20px;">Обозначаются: <b>Т53, Т6, Т64</b> (для тонического аккорда).</p>
+    </td>
+    <td class="sidebar-cell">
+      <h3>Зачем нужно?</h3>
+      <p>Для разнообразия голосоведения. В музыке редко играют аккорды только в основном виде.</p>
+      <h3>Пример</h3>
+      <p>В басу секстаккорда — терция, квартсекстаккорда — квинта.</p>
+    </td>
+  </tr>
+  <tr><td colspan="2" class="footer-cell">✡︎ Не запутайтесь. Это табличная вёрстка. Все права мои ✡︎</td></tr>
+</table>
+</body>
+</html>
