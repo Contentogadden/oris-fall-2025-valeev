@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Табличная вёрстка | Интервалы</title>
+    <style>
+        body { background: #f0f0f0; font-family: Fairfax; margin: 20px; }
+        .main-table { width: 1000px; margin: 0 auto; background: white; border-collapse: collapse; border: 2px solid #333; }
+        .main-table td, .main-table th { border: 1px solid #999; padding: 15px; vertical-align: top; }
+        .header-cell { background: #2c3e50; color: white; text-align: center; font-size: 28px; font-weight: bold; height: 100px; }
+        .nav-cell { background: #34495e; text-align: center; }
+        .nav-cell a { color: #ecf0f1; text-decoration: none; margin: 0 15px; font-size: 18px; }
+        .nav-cell a:hover { text-decoration: underline; color: #f1c40f; }
+        .sidebar-cell { background: #ecf0f1; width: 250px; }
+        .sidebar-cell h3 { color: #2c3e50; border-bottom: 2px solid #bdc3c7; }
+        .content-cell { background: #ffffff; }
+        .content-cell h2 { color: #2980b9; border-bottom: 2px solid #3498db; }
+        .footer-cell { background: #2c3e50; color: white; text-align: center; font-size: 14px; }
+        .interval-list { list-style-type: none; padding: 0; }
+        .interval-list li { padding: 8px; margin: 5px 0; background: #f8f9fa; border-left: 5px solid #e67e22; }
+        .note { background: #f1c40f; color: #2c3e50; padding: 3px 8px; border-radius: 12px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<table class="main-table">
+    <tr><td colspan="2" class="header-cell">Теория музыки для начинающих</td></tr>
+    <tr><td colspan="2" class="nav-cell">
+        <a href="index.html">Главная</a> |
+        <a href="intervals.html">Интервалы</a> |
+        <a href="scales.html">Гаммы</a> |
+        <a href="chords.html">Аккорды</a> |
+        <a href="inversions.html">Обращения</a>
+    </td></tr>
+    <tr>
+        <td class="content-cell">
+            <h2>Музыкальные интервалы</h2>
+            <p>Интервал — это расстояние между двумя звуками. Считается по ступеням (включая обе ноты).</p>
+
+            <h3>Основные интервалы (в пределах октавы)</h3>
+            <ul class="interval-list">
+                <li><span class="note">Прима (ч.1)</span> — чистая прима (0 полутонов). Одинаковые ноты.</li>
+                <li><span class="note">Малая секунда (м.2)</span> — 1 полутон.</li>
+                <li><span class="note">Большая секунда (б.2)</span> — 2 полутона (1 тон).</li>
+                <li><span class="note">Малая терция (м.3)</span> — 3 полутона.</li>
+                <li><span class="note">Большая терция (б.3)</span> — 4 полутона.</li>
+                <li><span class="note">Чистая кварта (ч.4)</span> — 5 полутонов.</li>
+                <li><span class="note">Увеличенная кварта / Уменьшенная квинта (тритон)</span> — 6 полутонов.</li>
+                <li><span class="note">Чистая квинта (ч.5)</span> — 7 полутонов.</li>
+                <li><span class="note">Малая секста (м.6)</span> — 8 полутонов.</li>
+                <li><span class="note">Большая секста (б.6)</span> — 9 полутонов.</li>
+                <li><span class="note">Малая септима (м.7)</span> — 10 полутонов.</li>
+                <li><span class="note">Большая септима (б.7)</span> — 11 полутонов.</li>
+                <li><span class="note">Чистая октава (ч.8)</span> — 12 полутонов.</li>
+            </ul>
+        </td>
+        <td class="sidebar-cell">
+            <h3>Как считать?</h3>
+            <p>Сначала считаем ступени (до-ре = 2), потом тоны.</p>
+            <p><b>Пример:</b> До-Ми: До(1), Ре(2), Ми(3) — терция. Между ними 4 полутона (2 тона) => большая терция.</p>
+            <h3>На слух</h3>
+            <p>Секунда — "шарманка", Терция — грустно/радостно, Кварта — "В лесу родилась елочка" (начало).</p>
+        </td>
+    </tr>
+    <tr><td colspan="2" class="footer-cell">✡︎ Не запутайтесь. Это табличная вёрстка. Все права мои ✡︎</td></tr>
+</table>
+
+</body>
+</html>
