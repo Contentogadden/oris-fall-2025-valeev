@@ -2,5 +2,8 @@
 
 Работа REPL
 
-Uploading Screen Recording 2026-02-27 at 17.46.48.mov…
+
+
+
+https://github.com/user-attachments/assets/ca5c3d65-366e-47d3-b884-8f2a38007538
 
