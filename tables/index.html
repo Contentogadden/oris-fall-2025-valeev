@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Табличная вёрстка | Теория музыки. Главная</title>
+  <style>
+    body {
+      background: #f0f0f0;
+      font-family: Fairfax;
+      margin: 20px;
+    }
+    .main-table {
+      width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-collapse: collapse;
+      border: 2px solid #333;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .main-table td, .main-table th {
+      border: 1px solid #999;
+      padding: 15px;
+      vertical-align: top;
+    }
+    .header-cell {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      height: 100px;
+    }
+    .nav-cell {
+      background: #34495e;
+      text-align: center;
+      color: white;
+    }
+    .nav-cell a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .nav-cell a:hover {
+      text-decoration: underline;
+      color: #f1c40f;
+    }
+    .sidebar-cell {
+      background: #ecf0f1;
+      width: 250px;
+      text-align: left;
+    }
+    .sidebar-cell h3 {
+      color: #2c3e50;
+      border-bottom: 2px solid #bdc3c7;
+      padding-bottom: 5px;
+      margin-top: 0;
+    }
+    .content-cell {
+      background: #ffffff;
+      min-height: 400px;
+    }
+    .content-cell h2 {
+      color: #2980b9;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+    .footer-cell {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+    }
+    .note-example {
+      font-size: 24px;
+      letter-spacing: 5px;
+      color: #e67e22;
+      background: #fdf2e9;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<table class="main-table">
+  <tr>
+    <td colspan="2" class="header-cell">
+       Теория музыки для начинающих
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" class="nav-cell">
+      <a href="index.html">Главная</a> |
+      <a href="intervals.html">Интервалы</a> |
+      <a href="scales.html">Гаммы</a> |
+      <a href="chords.html">Аккорды</a> |
+      <a href="inversions.html">Обращения</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="content-cell">
+      <h2>Основы музыки: Ноты и звук</h2>
+      <p>Музыка состоит из <strong>звуков</strong>. В европейской традиции используется 12 звуков в пределах октавы. Основные ступени (7 нот) имеют названия:</p>
+
+      <div class="note-example">
+        ДО - РЕ - МИ - ФА - СОЛЬ - ЛЯ - СИ
+      </div>
+
+      <h3>Октавы</h3>
+      <p>Октава — это интервал между двумя ближайшими одноименными звуками (например, от "До" до следующего "До"). На фортепиано октавы делятся на:</p>
+      <ul>
+        <li>Субконтроктава (самые низкие)</li>
+        <li>Контроктава</li>
+        <li>Большая октава</li>
+        <li>Малая октава</li>
+        <li>1-я, 2-я, 3-я, 4-я, 5-я октавы</li>
+      </ul>
+
+      <h3>Ключи</h3>
+      <p>Самые распространенные ключи: <b>Скрипичный (Соль)</b> и <b>Басовый (Фа)</b>. Они указывают, где на нотном стане находится определенная нота.</p>
+      <p style="background: #f9f9f9; padding: 10px; border-left: 5px solid #3498db;">
+         <i>Интересный факт:</i> Это знания уровня первого класса
+      </p>
+    </td>
+
+    <td class="sidebar-cell">
+      <h3> Словарь</h3>
+      <p><b>Нота</b> — графическое обозначение звука.</p>
+      <p><b>Звукоряд</b> — последовательность звуков.</p>
+      <p><b>Полутон</b> — наименьшее расстояние между звуками (ближайшие клавиши пианино).</p>
+      <p><b>Тон</b> = два полутона.</p>
+
+      <h3> Полезно</h3>
+      <p>Запомните порядок нот по квинтам: <b>Фа-До-Соль-Ре-Ля-Ми-Си</b>.</p>
+      <p style="font-size: 12px; color: gray;">(Это пригодится при изучении знаков альтерации. Правда)</p>
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" class="footer-cell">
+      ✡︎ Не запутайтесь. Это табличная вёрстка. Все права мои ✡︎
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
